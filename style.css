@@ -10,13 +10,11 @@ body {
     background: linear-gradient(to left, #00ccff, #b3d0ff) ;
     box-shadow: 3px 5px 3px black;
 }
-h1{
+h1, h2, h3, .class, #id {
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
-}
-h2{
-    color: rgb(0,204,255);
-    text-shadow: 1px 1px 3px rgb(0, 30, 255);
+    line-height: 1rem;
+    font-family: sans-serif;
 }
 
 .borderimg{
