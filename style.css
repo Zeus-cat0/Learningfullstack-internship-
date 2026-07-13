@@ -1,6 +1,3 @@
-html{
-    font-family: "Times new roman", serif, sans-serif;
-}
 
 body {
     /* background-image: url("../images/zebra.jpg");
@@ -19,19 +16,30 @@ a {
     text-transform: uppercase;
 }
 
-h1, h2, h3 {
+h1 {
     color: #ffffff;
     /* text-shadow: 2px 2px 5px black; */
-    line-height: 1rem;
-    font-style: italic;
-    font-family: sans-serif;
+    line-height: 2rem;
+    font-family: 'Macondo', serif;
 }
+h2 {
+    color: #ffffff;
+    /* text-shadow: 2px 2px 5px black; */
+    line-height: 2rem;
+    font-family: "Open Sans", sans-serif;
 
-
-h2{
-    font-size: 30px;
+}
+h3 {
+    color: #ffffff;
+    /* text-shadow: 2px 2px 5px black; */
+    line-height: 2rem;
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
     font-style: normal;
+
 }
+
+
 
 .formatting {
     font-size: 25px;
