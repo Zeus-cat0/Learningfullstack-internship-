@@ -10,7 +10,28 @@ body {
     background: linear-gradient(to left, #00ccff, #b3d0ff) ;
     box-shadow: 3px 5px 3px black;
 }
-h1, h2, h3, .class, #id {
+
+
+#foo {
+    color: #ff0000;
+}
+
+[id="foo"] {
+    color: #00ccff;
+}
+
+.container h1 {
+    color: rgb(254, 116, 148); 
+}
+
+div h1 {
+    color: rgb(22, 80, 189);
+}
+
+
+
+
+h1, h2, h3 {
     color: #ffffff;
     text-shadow: 2px 2px 5px black;
     line-height: 1rem;
