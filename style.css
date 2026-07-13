@@ -1,3 +1,10 @@
+body {
+    background-image: url("../images/zebra.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .container{
     background: linear-gradient(to left, #00ccff, #b3d0ff) ;
     box-shadow: 3px 5px 3px black;
@@ -10,3 +17,15 @@ h2{
     color: rgb(0,204,255);
     text-shadow: 1px 1px 3px rgb(0, 30, 255);
 }
+
+.borderimg{
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
