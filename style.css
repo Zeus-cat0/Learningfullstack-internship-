@@ -2,6 +2,7 @@ body {
     background-image: url("../images/zebra.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 
@@ -23,8 +24,14 @@ h2{
 }
 
 
+ul li{
+    color: #ff0000;
+    font-size: 20px;
+}
 
-
+ul > li {
+    color: yellow;
+}
 
 
 
