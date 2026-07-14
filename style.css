@@ -97,7 +97,11 @@ ul.topnav li.dropdownicon {
 }
 
 .leftside-col {
-    margin-left: 20%;
+    margin-left: 30%;
+}
+
+.rightside-col{
+    margin-left: 15%;
 }
 
 h1.large {
@@ -116,6 +120,7 @@ input[type="text"] {
     width: 400px;
     min-width: 100px;
     padding: 5px;
+    border-radius: 7px;
 }
 
 /* ########## Mobile ############ */
@@ -153,10 +158,17 @@ input[type="text"] {
 
     .col-6 {
         width: 100%;
+        margin: 0;
     }
 
-    .leftside-col {
+    div .leftside-col,
+    div .rightside-col {
+
         margin: 15px;
+
+    }
+    input[type= "text";]{
+        width: 350px;
     }
 
     h1.large {
@@ -168,6 +180,14 @@ input[type="text"] {
         width: 100%;
         max-width: 400px;
         box-sizing: border-box;
+    }
+    .videocontainer iframe{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+        
+
     }
 }
 
