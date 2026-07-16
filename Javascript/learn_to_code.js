@@ -15,18 +15,38 @@
 
 // console.log(loginwelcomemessage);
 
-var sum = 15 + 10;
-var sub = 15 - 10;
-var mul = 10 * 3;
-var div = 9 / 3;
-var mod = 10 % 3;
+// var sum = 15 + 10;
+// var sub = 15 - 10;
+// var mul = 10 * 3;
+// var div = 9 / 3;
+// var mod = 10 % 3;
 
-var msg = "10/3 = 3 with remainder of  " + mod;
+// var msg = "10/3 = 3 with remainder of  " + mod;
 
-var result = 10 * ((5 + 3 ) - 4);
-console.log(result);
+// var result = 10 * ((5 + 3 ) - 4);
+// console.log(result);
+
+var myaccmoney = 300;
+var shoes = 799.23;
+var coupon = 500;
 
 
+if (shoes <= myaccmoney){
+    myaccmoney -= shoes;
+    console.log("i got da shoes");
+    console.log("new balance " + myaccmoney);
+    
+}else if(shoes - coupon <= myaccmoney) {
+    myaccmoney -= shoes - coupon;
+    console.log("i got da shoes with coupon");
+    console.log("new balance " + myaccmoney);
+
+}
+
+else{
+    console.log("you boke get a job");
+
+}
 
 
 
