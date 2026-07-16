@@ -21,6 +21,12 @@ p {
     line-height: 1.2;
 }
 
+article p{
+    font-size: 35px;
+    padding: 20px;
+
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -126,6 +132,15 @@ div.box {
 
 }
 
+div.slopicon img{
+    display: block;
+    margin: auto;
+    box-shadow: -2px /* h */   -2px /* v */ 10px /*  b */ 2px /* s */ rgba(0 /* s */, 0/* bg */, 0 /*bx  */, .15/* op */) 
+    , 2px 2px 7px 2px rgba(0,0,0,1);
+
+
+}
+
 button{
     font-size: 32px;
     font-weight: 700;
@@ -221,7 +236,15 @@ input[type="text"] {
         font-size: 50px;
     }
 
+    article p {
+        font-size: 25px;
+
+    }
+
+
+    .col-7,
     .col-6,
+    .col-5,
     .col-4 {
         width: 100%;
         margin: 0;
@@ -230,6 +253,14 @@ input[type="text"] {
     div.box{
         padding: 5px;
         display: block;
+    }
+    div.slopicon {
+        margin: 10px;
+    }
+
+    div.slopicon img{
+        width: 100%;
+
     }
 
     .leftside-col,
