@@ -26,30 +26,49 @@
 // var result = 10 * ((5 + 3 ) - 4);
 // console.log(result);
 
-var myaccmoney = 300;
-var shoes = 799.23;
-var coupon = 500;
+// var myaccmoney = 300;
+// var shoes = 799.23;
+// var coupon = 500;
 
 
-if (shoes <= myaccmoney){
-    myaccmoney -= shoes;
-    console.log("i got da shoes");
-    console.log("new balance " + myaccmoney);
+// if (shoes <= myaccmoney){
+//     myaccmoney -= shoes;
+//     console.log("i got da shoes");
+//     console.log("new balance " + myaccmoney);
     
-}else if(shoes - coupon <= myaccmoney) {
-    myaccmoney -= shoes - coupon;
-    console.log("i got da shoes with coupon");
-    console.log("new balance " + myaccmoney);
+// }else if(shoes - coupon <= myaccmoney) {
+//     myaccmoney -= shoes - coupon;
+//     console.log("i got da shoes with coupon");
+//     console.log("new balance " + myaccmoney);
+
+// }
+
+// else{
+//     console.log("you boke get a job");
+
+// }
+
+
+var students = ["timmy", "janesha", "arun"];
+var naughtylist = [];
+
+var naughtylist = [];
+
+naughtylist.push(students[0]);
+
+var index = naughtylist.indexOf("timmy");
+
+// var index2 = students.indexOf("arun");
+
+console.log(naughtylist)
+
+
+if(index > -1 ){
+    naughtylist.splice( index, 1);
 
 }
 
-else{
-    console.log("you boke get a job");
-
-}
-
-
-
+console.log(naughtylist);
 
 
 
