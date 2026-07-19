@@ -49,31 +49,35 @@
 // }
 
 
-var students = ["timmy", "janesha", "arun"];
-var naughtylist = [];
+// var students = ["timmy", "janesha", "arun"];
+// var naughtylist = [];
 
-var naughtylist = [];
+// var naughtylist = [];
 
-naughtylist.push(students[0]);
+// naughtylist.push(students[0]);
 
-var index = naughtylist.indexOf("timmy");
+// var index = naughtylist.indexOf("timmy");
 
-// var index2 = students.indexOf("arun");
+// // var index2 = students.indexOf("arun");
 
-console.log(naughtylist)
-
-
-if(index > -1 ){
-    naughtylist.splice( index, 1);
-
-}
-
-console.log(naughtylist);
+// console.log(naughtylist)
 
 
+// if(index > -1 ){
+//     naughtylist.splice( index, 1);
+
+// }
+
+// console.log(naughtylist);
 
 
+// var total = 10
 
+
+// for ( var x = 0 ; x < total; x++){
+//      //interate until told not to
+//     console.log(x);
+// }
 
 
 
