@@ -79,14 +79,79 @@
 //     console.log(x);
 // }
 
+// var students = [ "john", "ram", "jaw", "oaoi","smith"];
+
+// for (var index = 0; index < students.length; index++) {
+//     console.log(students[index]);
+// }
+
+//var length1 = 15;
+//var width1 =10;
+//var area1 = length1 * width1;
+
+//var lenght2 = 12;
+//var width2 = 14;
+//var area2 = lenght2 * width2;
 
 
+//console.log(area1);
+//console.log(area2);
+
+// function area(length, width) {
+// return length * width;
+
+// var area1 = area(10,15);
+// console.log(area1);
+  
+// function area(length, width) {
+// return length * width;
+
+// }
+
+// var rectanglesAreas = []
+// rectanglesAreas.push(area(10,15));
+// rectanglesAreas.push(area(14,2));
+// rectanglesAreas.push(area(4,5));
+
+// console. log(rectanglesAreas) ;
 
 
+// var bankBalance = 500;
+// function makeTransaction(priceOfSale) {
 
+//     if( priceOfSale <= bankBalance){
+//         bankBalance -= priceOfSale;
+//         console.log("purchase successful")
+        
+//     } else {
+//         console.log(" No money")
+//     }
 
+// }
 
+// console.log(bankBalance);
+// makeTransaction (79.00);
 
+// console.log(bankBalance);
+// makeTransaction (2.32);
+
+// console.log(bankBalance);
+// makeTransaction (10.45);
+
+// console.log(bankBalance);
+// makeTransaction (450.00);
+
+// var transaction = function(priceOfSale){
+//     if( priceOfSale <= bankBalance){
+//         bankBalance -= priceOfSale;
+//         console.log("purchase successful")
+        
+//     } else {
+//         console.log(" No money")
+//     }
+// }
+
+// transaction(10);
 
 
 
