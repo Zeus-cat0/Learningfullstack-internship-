@@ -153,9 +153,80 @@
 
 // transaction(10);
 
+// var student = {
+//     firstName: "peter",
+//     lastName: "Parker",
+//     age: 7
+// };
+
+// function student(firstName, lastName, age){
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.age = age; 
+// }
+
+
+
+// var student0 = {
+//     firstName: "jay",
+//     lastName: "jii",
+//     age: 6,
+//     greeting: function () {
+//         return "Hi I am " + this.firstName + " and I am " + this.age + " years old.";
+//     }
+// };
+
+// console.log(student0.greeting());
+
+// // Creates a new empty object
+
+
+// var student1 = new Object();
+// student1.firstName = "peter";
+// student1.lastName = "parker";
+// student1.age = 7;
+
+// var student2 = new Object();
+// student2.firstName = "zack";
+// student2.lastName = "pepe";
+// student2.age = 6;
+
+// var students = [];
+
+// students.push(student0);
+// students.push(student1);
+// students.push(student2);
+
+// for (var index = 0; index < students.length; index++) {
+//     console.log(students[index]);
+// }
+
+// console.log(student.firstName);
+// console. log(student. lastName);
+// console.log(student["firstName"]);
+// console. log(student["LastName"]);
 
 
 
 
+// var students = ["John", "Jacob", "Jingle", "Heimer", "Smith"];
 
+// for (var index = 0; index < students.length; index++) {
+// console.log(students[index]);
+
+// }
+
+
+
+var students = [];
+
+function student(first, last, age) {
+        this.firstName = first;
+        this. lastName = last;
+        this.age = age;
+        this.greeting = function() {
+            return "Hi, I'm " + this. firstName + " and I'm " + this. age + " years old.";
+
+    };
+}
 
