@@ -216,17 +216,34 @@
 
 // }
 
-
-
 var students = [];
 
 function student(first, last, age) {
-        this.firstName = first;
-        this. lastName = last;
-        this.age = age;
-        this.greeting = function() {
-            return "Hi, I'm " + this. firstName + " and I'm " + this. age + " years old.";
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
 
+    this.greeting = function () {
+        return "Hi, I'm " + this.firstName + " and I'm " + this.age + " years old.";
     };
 }
 
+students.push(new student("jenny", "laga", 5));
+students.push(new student("timmy", "turner", 8));
+students.push(new student("carl", "jr", 4));
+
+var student = students[0];
+
+for (var key in student) {
+    console.log(student[key]);
+}
+
+for (var index = 0; index < students.length; index++) {
+    var currentStudent = students[index];
+    console.log(currentStudent.greeting());
+}
+
+// var s1 = new student("jenny", "laga", 5);
+
+// console.log(s1);
+// console.log(s1.greeting());
