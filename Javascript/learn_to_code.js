@@ -249,3 +249,38 @@
 // console.log(s1.greeting());
 
 
+
+
+
+
+// // bind function
+
+// //wrong example
+
+// //alex browns 
+// this.car = "honda ugly";
+
+// var markgarage = {
+//     car: "astroncar",
+//     getcar: function(){
+//         return this.car;
+//     }
+// }
+
+// console.log(markgarage.getcar());
+
+// var storegetcarforlater = markgarage.getcar;
+
+// //now work is over and mark wannts car
+
+// console.log(storegetcarforlater()); //what why do i have alex car now 
+
+// //right example
+// var therealgetcarfunction = markgarage.getcar.bind(markgarage);
+// console.log(therealgetcarfunction());
+
+
+
+
+
+
