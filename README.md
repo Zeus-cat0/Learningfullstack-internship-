@@ -9,9 +9,9 @@ This repository contains my learning journey in **Full Stack Web Development**. 
 ## 📚 Course Information
 
 - **Course:** Web Development Tutorials For Beginners
-- **Instructor:** WB Web Development
+- **Instructor:** Mark Price at devslopes.com
 - **Platform:** YouTube
-- **Duration:** 64 Lessons (Approximately 3 Hours)
+- **Duration:** 132 Lessons 
 
 ---
 
