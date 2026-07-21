@@ -339,4 +339,585 @@ Bootstrap helps developers build professional websites with less code and in les
 
 ---
 
+# 12. Bootstrap Grid System
+
+## What is the Bootstrap Grid System?
+
+The Bootstrap Grid System is a layout system that helps developers create responsive web pages. It uses **containers**, **rows**, and **columns** to organize content.
+
+Bootstrap's grid system is built using **Flexbox**, making layouts flexible and responsive across different screen sizes.
+
+---
+
+# Components of the Grid System
+
+The Bootstrap Grid System consists of three main parts:
+
+1. Container
+2. Row
+3. Column
+
+Basic structure:
+
+```html
+<div class="container">
+    <div class="row">
+        <div class="col">
+            Column 1
+        </div>
+
+        <div class="col">
+            Column 2
+        </div>
+    </div>
+</div>
+```
+
+---
+
+# Container
+
+A container is the outer wrapper of the grid system.
+
+It provides proper spacing and alignment for the content.
+
+Bootstrap provides two types of containers:
+
+## 1. .container
+
+A responsive container with a fixed maximum width.
+
+Example:
+
+```html
+<div class="container">
+    Content
+</div>
+```
+
+---
+
+## 2. .container-fluid
+
+A full-width container that always takes up 100% of the screen width.
+
+Example:
+
+```html
+<div class="container-fluid">
+    Content
+</div>
+```
+
+---
+
+# Row
+
+Rows are used to group columns horizontally.
+
+Example:
+
+```html
+<div class="row">
+
+</div>
+```
+
+Rows should always be placed inside a container.
+
+---
+
+# Column
+
+Columns hold the actual content.
+
+Example:
+
+```html
+<div class="col">
+    Content
+</div>
+```
+
+Columns must always be placed inside a row.
+
+---
+
+# Bootstrap Grid Classes
+
+Bootstrap provides different column classes for different screen sizes.
+
+| Class | Device Size |
+|--------|-------------|
+| `.col-` | Extra Small (All Devices) |
+| `.col-sm-` | Small Devices (≥576px) |
+| `.col-md-` | Medium Devices (≥768px) |
+| `.col-lg-` | Large Devices (≥992px) |
+| `.col-xl-` | Extra Large Devices (≥1200px) |
+| `.col-xxl-` | Extra Extra Large Devices (Bootstrap 5) |
+
+---
+
+# 12-Column Grid System
+
+Bootstrap divides every row into **12 equal columns**.
+
+Example:
+
+```
+|----|----|----|----|----|----|----|----|----|----|----|----|
+```
+
+Possible layouts:
+
+```
+12
+
+6 + 6
+
+4 + 4 + 4
+
+3 + 3 + 3 + 3
+
+8 + 4
+
+9 + 3
+
+2 + 10
+
+5 + 7
+```
+
+The total columns in one row should normally add up to **12**.
+
+---
+
+# Example 1: Two Equal Columns
+
+```html
+<div class="container">
+    <div class="row">
+
+        <div class="col-6">
+            Left
+        </div>
+
+        <div class="col-6">
+            Right
+        </div>
+
+    </div>
+</div>
+```
+
+Output:
+
+```
+|------Left------|------Right------|
+```
+
+---
+
+# Example 2: Three Equal Columns
+
+```html
+<div class="container">
+    <div class="row">
+
+        <div class="col-4">
+            One
+        </div>
+
+        <div class="col-4">
+            Two
+        </div>
+
+        <div class="col-4">
+            Three
+        </div>
+
+    </div>
+</div>
+```
+
+Output:
+
+```
+|----One----|----Two----|---Three---|
+```
+
+---
+
+# Example 3: Four Equal Columns
+
+```html
+<div class="container">
+    <div class="row">
+
+        <div class="col-3">1</div>
+        <div class="col-3">2</div>
+        <div class="col-3">3</div>
+        <div class="col-3">4</div>
+
+    </div>
+</div>
+```
+
+---
+
+# Grid System Rules
+
+Bootstrap Grid follows several important rules.
+
+## Rule 1
+
+Rows must always be placed inside:
+
+- `.container`
+- `.container-fluid`
+
+---
+
+## Rule 2
+
+Columns must always be placed inside a row.
+
+Correct:
+
+```html
+<div class="container">
+
+    <div class="row">
+
+        <div class="col">
+
+        </div>
+
+    </div>
+
+</div>
+```
+
+---
+
+## Rule 3
+
+Content should always be placed inside columns.
+
+Incorrect:
+
+```html
+<div class="row">
+
+    <h1>Hello</h1>
+
+</div>
+```
+
+Correct:
+
+```html
+<div class="row">
+
+    <div class="col">
+
+        <h1>Hello</h1>
+
+    </div>
+
+</div>
+```
+
+---
+
+## Rule 4
+
+Bootstrap uses a 12-column layout.
+
+Examples:
+
+```
+6 + 6 = 12
+
+3 + 3 + 3 + 3 = 12
+
+8 + 4 = 12
+
+9 + 3 = 12
+```
+
+---
+
+## Rule 5
+
+Column widths are percentage-based, making layouts responsive.
+
+---
+
+# Gutters
+
+Gutters are the spaces between columns.
+
+Bootstrap creates gutters automatically using padding.
+
+Example:
+
+```
+| Col 1 |   Gap   | Col 2 |
+```
+
+---
+
+# Responsive Grid
+
+Bootstrap automatically adjusts layouts for different screen sizes.
+
+Example:
+
+```html
+<div class="col-sm-6 col-md-4 col-lg-3">
+```
+
+Meaning:
+
+- Small screens → 6 columns
+- Medium screens → 4 columns
+- Large screens → 3 columns
+
+---
+
+# Auto Layout Columns
+
+If no width is specified, Bootstrap automatically divides the available space equally.
+
+Example:
+
+```html
+<div class="row">
+
+    <div class="col">
+        One
+    </div>
+
+    <div class="col">
+        Two
+    </div>
+
+    <div class="col">
+        Three
+    </div>
+
+</div>
+```
+
+Each column automatically gets equal width.
+
+---
+
+# Advantages of Bootstrap Grid
+
+- Mobile-first design
+- Responsive layouts
+- Flexible columns
+- Easy to learn
+- Built with Flexbox
+- Faster layout creation
+- Consistent spacing
+
+---
+
+# Summary
+
+The Bootstrap Grid System is a responsive layout system built with **containers**, **rows**, and **columns**.
+
+Remember:
+
+- Container → Holds everything
+- Row → Groups columns
+- Column → Holds content
+
+Every row is divided into **12 columns**, allowing developers to create flexible and responsive layouts for different screen sizes.
+
+---
+
+# 13. Nested Grid (Nested Rows)
+
+Bootstrap allows you to create a grid inside another grid. This is called a **nested grid**.
+
+A nested row must always be placed inside a column.
+
+Example:
+
+```html
+<div class="container-fluid">
+
+    <div class="row">
+
+        <div class="col-6">
+
+            <div class="row">
+
+                <div class="col-6">A</div>
+                <div class="col-2">B</div>
+                <div class="col-4">C</div>
+
+            </div>
+
+        </div>
+
+        <div class="col-6">
+            D
+        </div>
+
+    </div>
+
+</div>
+```
+
+Output:
+
+```
+-----------------------------------
+|         | A | B | C |     D      |
+-----------------------------------
+```
+
+Rules:
+
+- A nested `.row` must be inside a `.col-*`.
+- Nested columns must still follow the 12-column rule.
+
+---
+
+# 14. Responsive Columns
+
+Bootstrap allows layouts to change automatically according to screen size.
+
+Example:
+
+```html
+<div class="col-sm-6 col-lg-4">
+```
+
+Meaning:
+
+- Small screens (≥576px): Takes 6 columns (50%)
+- Large screens (≥992px): Takes 4 columns (33.33%)
+
+Another example:
+
+```html
+<div class="row">
+
+    <div class="col-sm-6 col-lg-4">
+        Column 1
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+        Column 2
+    </div>
+
+    <div class="col-sm-12 col-lg-4">
+        Column 3
+    </div>
+
+</div>
+```
+
+Layout:
+
+Large Screen
+
+```
+|----1----|----2----|----3----|
+```
+
+Small Screen
+
+```
+|------1------|
+|------2------|
+|------3------|
+```
+
+Bootstrap automatically rearranges columns based on screen width.
+
+---
+
+# 15. Bootstrap Breakpoints
+
+Bootstrap uses breakpoints to create responsive layouts.
+
+| Class | Screen Width |
+|--------|--------------|
+| `.col-` | All screen sizes |
+| `.col-sm-` | ≥576px |
+| `.col-md-` | ≥768px |
+| `.col-lg-` | ≥992px |
+| `.col-xl-` | ≥1200px |
+| `.col-xxl-` | ≥1400px (Bootstrap 5) |
+
+Each breakpoint applies to that size and all larger sizes.
+
+Example:
+
+```html
+<div class="col-sm-6 col-lg-4">
+```
+
+This means:
+
+- Extra Small → 100%
+- Small → 50%
+- Medium → 50%
+- Large → 33.33%
+- Extra Large → 33.33%
+- Extra Extra Large → 33.33%
+
+---
+
+# 16. Styling Bootstrap Layouts
+
+When learning Bootstrap, it is common to add custom CSS so containers, rows, and columns are easier to visualize.
+
+Example:
+
+```css
+.container-fluid{
+    background-color:#6c2eb9;
+}
+
+.row{
+    background-color:#ff9232;
+}
+
+[class*="col-"]{
+    background-color:#00c3aa;
+    border:2px solid rgba(0,0,0,.3);
+}
+```
+
+Explanation:
+
+- `.container-fluid` → Styles the full-width container.
+- `.row` → Styles each row.
+- `[class*="col-"]` → Selects every class containing `col-` (such as `.col-6`, `.col-lg-4`, `.col-sm-12`) and applies the same styles to all Bootstrap columns.
+
+This selector is useful when practicing the Bootstrap Grid System.
+
+---
+
+# 17. Bootstrap Grid Best Practices
+
+- Always place `.row` inside a `.container` or `.container-fluid`.
+- Always place columns inside a `.row`.
+- Ensure column sizes usually add up to **12**.
+- Use responsive classes (`col-sm`, `col-md`, `col-lg`) to create mobile-friendly layouts.
+- Use nested rows only inside columns.
+- Prefer Bootstrap utility classes before writing custom CSS.
+
+---
+
+---
+
 # End of Bootstrap 4 Notes
