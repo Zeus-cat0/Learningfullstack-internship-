@@ -1,19 +1,22 @@
-var numField1 = document.getElementById('numField1');
-
-var numField2 = document.getElementById('numField2');
-
-var resultfield = document.getElementById('resultfield');
-
-var form = document.getElementById('x is what % of y ?');
+var numField1 = document.getElementById("numField1");
+var numField2 = document.getElementById("numField2");
+var resultField = document.getElementById("resultfield");
+var form = document.getElementById("percentageForm");
 
 
-
-form.addEventListener('submit', function() {
+form.addEventListener('submit', function(event) {
 
     if (!numField1.value || !numField2.value) {
         alert("Please enter values in the fields");
     } else {
         var x = parseFloat(numField1.value);
         var y = parseFloat(numField2.value);
+
+        var result = x/y;
+        var percent = result * 100;
+
+        resultField.innerText = "Result: " + percent + "%";
+        event.preventDefault();
+        
     }
 });
