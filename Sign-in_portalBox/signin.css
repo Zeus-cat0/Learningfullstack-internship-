@@ -33,7 +33,37 @@
 }
 
 /* Button */
-.btn-primary{
-    height: 48px;
-    border-radius: 10px;
+
+.signin-btn{
+    color: #ffff;
+    background-color: #d64829;
+    width: 100%;
+    margin-bottom: 1.2rem;
+
 }
+
+a.create-new-account{
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
