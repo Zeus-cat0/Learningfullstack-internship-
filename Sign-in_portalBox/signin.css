@@ -1,0 +1,39 @@
+/* Page Background */
+.SignIn-body{
+    background-color: #e6f2ff;
+}
+
+/* Login Card */
+.Signin-card{
+    padding: 40px 30px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+
+/* Logo */
+.signin-img{
+    width: 140px;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+/* Form */
+.signin-form{
+    max-width: 350px;
+    margin: auto;
+}
+
+/* Inputs */
+.form-control{
+    height: 48px;
+    border-radius: 10px;
+}
+
+/* Button */
+.btn-primary{
+    height: 48px;
+    border-radius: 10px;
+}
