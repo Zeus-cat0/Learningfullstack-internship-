@@ -1,19 +1,11 @@
 # 🚀 Learning Full Stack Development
 
-This repository contains my learning journey in **Full Stack Web Development**. I am following the **WB Web Development Full Course** and building projects while practicing HTML, CSS, JavaScript, Git, GitHub, and other web technologies.
+This repository contains my learning journey. I am building projects while practicing HTML, CSS, JavaScript, Git, GitHub, and other web technologies.
 
 > "Learning by building real projects and practicing consistently."
 
 ---
 
-## 📚 Course Information
-
-- **Course:** Web Development Tutorials For Beginners
-- **Instructor:** Mark Price at devslopes.com
-- **Platform:** YouTube
-- **Duration:** 132 Lessons 
-
----
 
 ## 🎯 Goals
 
@@ -22,8 +14,6 @@ This repository contains my learning journey in **Full Stack Web Development**. 
 - Learn JavaScript for interactive websites.
 - Understand Git and GitHub workflows.
 - Practice responsive web design.
-- Prepare for React and Backend Development.
-- Build full-stack projects from scratch.
 
 ---
 
@@ -44,20 +34,6 @@ This repository contains my learning journey in **Full Stack Web Development**. 
 
 ---
 
-## 📌 Projects
-
-This repository will contain practice files and mini projects such as:
-
-- Landing Pages
-- Forms
-- Portfolio Website
-- Calculator
-- To-Do App
-- Weather App
-- Responsive Websites
-- Full Stack Applications
-
----
 
 ## 💻 How to Run
 
@@ -71,17 +47,6 @@ Open any HTML file in your browser or use the **Live Server** extension in Visua
 
 ---
 
-## 🌱 Learning Philosophy
-
-I believe the best way to learn programming is through:
-
-- Daily Practice
-- Building Projects
-- Learning from Mistakes
-- Writing Clean Code
-- Consistency
-
----
 
 ## 📈 Repository Status
 
